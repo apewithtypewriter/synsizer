@@ -1,0 +1,25 @@
+{
+    "defaults": {
+        "envelope": {
+            "a" : {
+                "duration": 0.05,
+                "amplitude": 1.0
+            },
+            
+            "d" : {
+                "duration": 0.1,
+                "amplitude": 0.7
+            },
+            
+            "s" : {
+                "duration": 0.65,
+                "amplitude": 0.7
+            },
+            
+            "r" : {
+                "duration": 0.2,
+                "amplitude": 0.0
+            }
+        }
+    }
+}
