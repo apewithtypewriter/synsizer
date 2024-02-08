@@ -1,5 +1,10 @@
 {
     "defaults": {
+        "sample_rate" : {
+            "default": 22050,
+            "release": 44100
+        },
+        
         "envelope": {
             "a" : {
                 "duration": 0.05,
