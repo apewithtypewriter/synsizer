@@ -1,7 +1,7 @@
 from clip import Clip
-from sound import Sound
 from envelope import Envelope
 from filter import Filter
+from sound import Sound
 
 
 class Workspace:

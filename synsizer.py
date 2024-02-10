@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
+#to-do: create __init__.py folder in order to import from subdirectories
+#import sound/run_json
+#from sound/workspace import Workspace
 import argparse
 from pathlib import Path
 
 
-def arg_parser():
+def parse_args():
     """Create a parser object to parse command line args.
     
     Command line arguments:
@@ -18,8 +21,14 @@ def arg_parser():
     parser.add_argument("-r", "--release", action = "store_true")
     args = parser.parse_args()
     
-    return parser
+    return args
 
 
 if __name__ == "__main__":
-    parser = arg_parser()
+    args = parse_args()
+    #current_workspace = Workspace()
+    
+    if args.output:
+        print(args.output)
+        
+    print(args.input_path)
