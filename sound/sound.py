@@ -1,7 +1,8 @@
-from envelope import Envelope
-from waves import add_wave
 import numpy as np
 from scipy import signal
+
+from envelope import Envelope
+from waves import add_wave
 
 
 class Sound:

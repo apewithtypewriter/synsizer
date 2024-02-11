@@ -1,7 +1,8 @@
-from sound import Sound
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.io.wavfile import write
+
+from sound import Sound
 
 
 class Clip:

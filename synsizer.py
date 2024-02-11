@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-#to-do: create __init__.py folder in order to import from subdirectories
-#import sound/run_json
-#from sound/workspace import Workspace
 import argparse
 from pathlib import Path
+
+#import sound/run_json
+#from sound/workspace import Workspace
 
 
 def parse_args():
