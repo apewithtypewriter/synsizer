@@ -27,8 +27,8 @@ class Sound:
     change_pitch   -- adjust the Sound frequency
     """
     
-    def __init__(self, start, duration, freq, waveform, amplitude = 0.5,
-        sample_rate = 44100):
+    def __init__(self, start, duration, freq, waveform, amplitude=0.5,
+        sample_rate=44100):
         num_points = int(duration * sample_rate)
         
         self.start = start
@@ -47,5 +47,5 @@ class Sound:
     def apply_filter(self, audio_filter):
         self.data = audio_filter.apply_filter(self.data, self.sample_rate)
             
-    def change_pitch(new_pitch):
+    def change_pitch(self, new_pitch):
         pass

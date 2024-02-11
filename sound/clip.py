@@ -23,7 +23,7 @@ class Clip:
     def loop(self, n):
         self.data = np.repeat(self.data, n)
         
-    def plot(self, show = True, save = False):
+    def plot(self, show=True, save=False):
         plt.plot(self.data)
         
         if show:
