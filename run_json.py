@@ -1,4 +1,4 @@
-from commands import Commands.json_form
+from commands import Commands
 import json
 
 

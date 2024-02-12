@@ -2,8 +2,9 @@
 import argparse
 from pathlib import Path
 
-#import sound/run_json
-#from sound/workspace import Workspace
+from config import Config
+import run_json
+from sound.workspace import Workspace
 
 
 def parse_args():
@@ -26,7 +27,7 @@ def parse_args():
 
 if __name__ == "__main__":
     args = parse_args()
-    #current_workspace = Workspace()
+    current_workspace = Workspace()
     
     if args.output:
         print(args.output)
